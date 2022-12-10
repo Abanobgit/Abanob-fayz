@@ -77,6 +77,8 @@ nav a:hover {
     }
 }
 
+
+
 .main h3 {
     color: #fff;
     font-size: 2em;
@@ -141,11 +143,19 @@ nav a:hover {
     padding: 25px;
     margin: 15px;
     transition: 0.6s ease;
-    margin-left: -3px;
+    
 }
 
 .card:hover {
     transform: scale(1.1);
+}
+
+.card .icon:hover {
+    color: #4e9eff;
+}
+
+.info h3:hover {
+    color: #4e9eff;
 }
 
 .icon {
@@ -350,5 +360,10 @@ nav a:hover {
     body{
         font-size: 10px;
      
+    }
+}
+@media (max-width: 450px) {
+    .card {
+        width: 308px;
     }
 }
